@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+id: setup-project
+sidebar_position: 1
 sidebar_label: 1. Set up project
 ---
 

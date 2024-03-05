@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 sidebar_label: Overview
 ---
 
@@ -25,8 +25,9 @@ To make the set-up journey truly smooth, it's recommended you familiarize first 
 
 ## Implementation path
 
-### 1. Setup your project and links on vimen.io
-### 2. Configure your app
-### 3. Handle deep & dynamic links in your app
-### 4. View analytics data
-### 5. Configure webhooks for advanced use cases
+1. [Setup your project and links on vimen.io](/docs/getting-started/setup-project)
+2. [Configure mobile SDK](https://www.google.it)
+3. [Handle deep & dynamic links in your app](https://www.google.it)
+4. [View analytics data](https://www.google.it)
+5. [Configure webhooks for advanced use cases](https://www.google.it)
+6. [Generate links programmatically via API](https://www.google.it)
