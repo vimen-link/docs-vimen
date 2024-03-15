@@ -75,12 +75,12 @@ const config: Config = {
         href: "/category/getting-started",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Tutorial",
+        // },
         {
           href: "https://github.com/vimen-link/docs-vimen",
           label: "GitHub",
