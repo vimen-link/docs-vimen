@@ -11,7 +11,7 @@ const config: Config = {
   url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/docs/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -32,17 +32,17 @@ const config: Config = {
   // 🚨 IMPORTANT: the following redirect works, it works only in production,
   // why? Because the plugin devs thought it was a good idea....
   plugins: [
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            to: "/category/getting-started", // Target URL
-            from: ["/", "/docs/", "/docs/category/"], // Source URLs
-          },
-        ],
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-client-redirects",
+    //   {
+    //     redirects: [
+    //       {
+    //         to: "/category/getting-started", // Target URL
+    //         from: ["/", "/docs/", "/docs/category/"], // Source URLs
+    //       },
+    //     ],
+    //   },
+    // ],
   ],
 
   presets: [
@@ -54,8 +54,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/vimen-link/docs-vimen",
         },
         blog: false,
         theme: {
@@ -73,7 +72,7 @@ const config: Config = {
       logo: {
         alt: "Vimen Logo",
         src: "img/logo.svg",
-        href: "/docs/category/getting-started",
+        href: "/category/getting-started",
       },
       items: [
         {
@@ -82,9 +81,8 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/vimen-link/docs-vimen",
           label: "GitHub",
           position: "right",
         },
@@ -98,24 +96,20 @@ const config: Config = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/category/getting-started",
+              to: "/category/getting-started",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Support",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "@luke_pighetti",
+              href: "https://twitter.com/luke_pighetti",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "@mariopepe_",
+              href: "https://twitter.com/mariopepe_",
             },
           ],
         },
@@ -128,12 +122,12 @@ const config: Config = {
             // },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/vimen-link",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Luke Pighetti`,
     },
     prism: {
       theme: prismThemes.github,

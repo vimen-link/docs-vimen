@@ -25,7 +25,7 @@ To make the set-up journey truly smooth, it's recommended you familiarize first 
 
 ## Implementation path
 
-1. [Setup your project and links on vimen.io](/docs/getting-started/setup-project)
+1. [Setup your project and links on vimen.io](/getting-started/setup-project)
 2. [Configure mobile SDK](https://www.google.it)
 3. [Handle deep & dynamic links in your app](https://www.google.it)
 4. [View analytics data](https://www.google.it)

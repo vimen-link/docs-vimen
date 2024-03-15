@@ -19,7 +19,7 @@ Missing an SDK for your platform? Let us know what you need!
 
 Add your deeplinking domain as an associated applinks domain. Example: `vgl.vimen.io`
 
-☀️ [Show me how to associate a domain in XCode](/docs/getting-started/help-do#assign-associated-domain)
+☀️ [Show me how to associate a domain in XCode](/getting-started/help-do#assign-associated-domain)
 
 ```xml title="ios/Runner/Runner.entitlements"
 <dict>
@@ -58,7 +58,7 @@ Add your deeplinking domain as an associated applinks domain. Example: `vgl.vime
 :::info
 Test the link by pasting it into Keep Notes. Tapping on it will cause it to trigger.
 
-☀️ [Show me how to verify App Links integration with adb](/docs/getting-started/help-do#verify-app-links-integration)
+☀️ [Show me how to verify App Links integration with adb](/getting-started/help-do#verify-app-links-integration)
 :::
 
 ### Setup Flutter
