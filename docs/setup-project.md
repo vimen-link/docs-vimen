@@ -1,6 +1,6 @@
 ---
 id: setup-project
-sidebar_position: 1
+sidebar_position: 4
 sidebar_label: Setup project and apps
 ---
 
@@ -49,7 +49,7 @@ The link your customers will be redirected to if your link is deactivated or doe
 
 Usually the last fragment of your AppStore URL.
 
-🧭 [Help me find my App Store ID](/getting-started/cant-find#app-store-id)
+🧭 [Help me find my App Store ID](/help/cant-find#app-store-id)
 
 :::warning
 Must start with the `id` prefix, such as `id123`
@@ -59,11 +59,11 @@ Must start with the `id` prefix, such as `id123`
 
 Reverse domain indentifier available in XCode or AppStore Connect
 
-🧭 [Help me find my iOS Bundle Identifier](/getting-started/cant-find#ios-bundle-identifier)
+🧭 [Help me find my iOS Bundle Identifier](/help/cant-find#ios-bundle-identifier)
 
 ### Apple Team ID
 
-🧭 [Help me find my Apple Team ID](/getting-started/cant-find#apple-team-id)
+🧭 [Help me find my Apple Team ID](/help/cant-find#apple-team-id)
 
 ## Setup Android App
 
@@ -73,13 +73,13 @@ Reverse domain indentifier available in XCode or AppStore Connect
 
 Reverse domain indentifier available in Android Studio or Google Play Console
 
-🧭 [Help me find my Android Application ID](/getting-started/cant-find#android-application-id)
+🧭 [Help me find my Android Application ID](/help/cant-find#android-application-id)
 
 ### Andrid SHA-256 Fingerprints
 
 These are used to verify your deeplink domain with Google. Without these, your app cannot handle your deeplinks!
 
-🧭 [Help me find my Android SHA-256 Fingerprints](/getting-started/cant-find#android-sha-256-fingerprints)
+🧭 [Help me find my Android SHA-256 Fingerprints](/help/cant-find#android-sha-256-fingerprints)
 
 :::info
 Have multiple fingerprints? Comma separate them, but make sure there are no spaces!
