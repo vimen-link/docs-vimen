@@ -72,7 +72,7 @@ const config: Config = {
       logo: {
         alt: "Vimen Logo",
         src: "img/logo.svg",
-        href: "/category/getting-started",
+        href: "/",
       },
       items: [
         // {
@@ -91,15 +91,6 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Getting Started",
-              to: "/category/getting-started",
-            },
-          ],
-        },
         {
           title: "Support",
           items: [
