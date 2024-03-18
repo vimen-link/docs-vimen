@@ -19,6 +19,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "link",
+      label: "Go to console",
+      href: "https://vimen.io/app/all",
+    },
+    {
+      type: "link",
       label: "System status",
       href: "https://vimen.cronitorstatus.com",
     },
